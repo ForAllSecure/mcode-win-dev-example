@@ -15,7 +15,7 @@ Please ensure the following options are installed from the Visual Studio Install
 
 - Desktop development with C++
 - C++ for Linux Development
-- C++ Cmake tools for Linux
+- C++ CMake tools for Linux
 
 ![Visual Studio Install Options](img/vsopts.png?raw=true "Visual Studio Install Options")
 

@@ -1,0 +1,7 @@
+project: mayhem-win-example
+target: mayhem-win-example
+image: $MAYHEM_DOCKER_REGISTRY/mayhem-win-example:latest
+cmds:
+  - cmd: /MayhemExample @@
+    env:
+      AFL_INST_LIBS: "0"

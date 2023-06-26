@@ -25,6 +25,11 @@ Please ensure the following options are installed from the Visual Studio Install
 
 Visual Studio's Linux cross-compilation support recommends WSL to handle building of Linux programs.
 To install, run `wsl --install` from Powershell, wait for the initial install to complete, reboot and open WSL again to complete the install.
+
+Inside of the newly created Ubuntu environment, install the required dependencies:
+
+`sudo apt update && sudo apt install -y build-essential cmake ninja-build gdb git rsync zip`
+
 Once installed, set up Visual Studio to use WSL for Linux builds by selecting it in the connection dropdown.
 
 ![Connection Dropdown](img/env.png?raw=true "Connection Dropdown")

@@ -3,9 +3,9 @@
 
 #pragma once
 
-#include <assert.h>
-#include <stdio.h>
-#include <stdint.h>
-#include <stdlib.h>
+#include <cassert>
+#include <cstdio>
+#include <cstdint>
+#include <cstdlib>
 
 // TODO: Reference additional headers your program requires here.
